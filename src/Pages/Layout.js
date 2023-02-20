@@ -5,6 +5,11 @@ const Layout = () => {
     <>
       <NavBar />
       <Outlet />
+      <div className="h-5 ">
+        <div className="container"> 
+        <p className="text-center pt-5 pb-5">This is assessment for an company</p>
+        </div>
+      </div>
     </>
   );
 };

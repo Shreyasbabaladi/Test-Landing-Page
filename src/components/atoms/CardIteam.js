@@ -10,8 +10,8 @@ const CardIteam = () => {
           MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!
         </CardTitle>
         <CardSubtitle>$18.50</CardSubtitle>
-        <CardSubtitle color="light">6d 13h 52 sec</CardSubtitle>
-      <Badge >5 bids</Badge>
+        <CardSubtitle className="text-danger">6d 13h 52 sec</CardSubtitle>
+      <Badge className="bg-light text-black">5 bids</Badge>
       </CardBody>
     </Card>
   );
